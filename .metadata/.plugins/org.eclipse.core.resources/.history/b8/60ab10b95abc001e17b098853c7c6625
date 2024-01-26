@@ -1,0 +1,15 @@
+package com.coffee.house.library.exception;
+
+import java.io.IOException;
+
+public class FirebaseNotFoundException extends IOException{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1343453741764684092L;
+	
+	public FirebaseNotFoundException(String exception) {
+		super(exception);
+	}
+}

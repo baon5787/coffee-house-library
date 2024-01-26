@@ -1,0 +1,5 @@
+package com.coffee.house.library.exception;
+
+public class FirebaseNotFoundException extends Exception{
+
+}

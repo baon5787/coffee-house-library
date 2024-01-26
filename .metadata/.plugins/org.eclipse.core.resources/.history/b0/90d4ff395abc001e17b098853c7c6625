@@ -1,0 +1,13 @@
+package com.coffee.house.library.exception;
+
+public class FirebaseNotFoundException extends Exception{
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1343453741764684092L;
+	
+	public FirebaseNotFoundException(String exception) {
+		super(exception);
+	}
+}
