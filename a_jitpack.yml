@@ -6,5 +6,5 @@ before_install:
   - sdk install maven
   - mvn -v
 install:
-  - cd backend/coffee-house-library
+  - cd backend/coffee-house-library/
   - mvn install -Dmaven.javadoc.skip=true -DskipTests
